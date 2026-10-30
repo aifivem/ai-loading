@@ -1,0 +1,22 @@
+{
+  "ADMIN_TITLE": "Loading screen",
+  "ADMIN_TAB_SCREEN": "Loading screen",
+  "ADMIN_TAB_SCREEN_DESC": "What players see while the game loads: your server's name from the General settings, a background and tips.",
+  "ADMIN_C_LOOK": "Look",
+  "ADMIN_C_LOOK_DESC": "The server name, subtitle and tagline come from ai-core's General settings.",
+  "ADMIN_F_BACKGROUND": "Background",
+  "ADMIN_H_BACKGROUND": "The picture behind the loading screen.",
+  "ADMIN_O_BRAND": "Same as the character screen",
+  "ADMIN_O_SKYLINE": "City skyline",
+  "ADMIN_O_WET_DRIVE": "Night drive",
+  "ADMIN_C_TIPS": "Tips",
+  "ADMIN_C_TIPS_DESC": "Short lines shown one after another while players wait.",
+  "ADMIN_F_TIPS": "Tips",
+  "ADMIN_ADD_TIP": "Add tip",
+  "ADMIN_F_TIP": "Tip",
+  "ADMIN_P_TIP": "Jobs pay only while you are on duty.",
+  "ADMIN_F_TIP_SECONDS": "Time per tip",
+  "ADMIN_H_TIP_SECONDS": "Seconds each tip stays before the next one.",
+  "LOADING_TITLE": "Loading the city",
+  "LOADING_TIP": "Tip"
+}

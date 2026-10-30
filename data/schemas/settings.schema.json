@@ -1,0 +1,49 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "ai-loading/data/settings.json",
+  "type": "object",
+  "properties": {
+    "$schema": {
+      "type": "string",
+      "description": "This file's JSON Schema (for editors)."
+    },
+    "background": {
+      "description": "Background: The picture behind the loading screen.",
+      "enum": [
+        "",
+        "skyline",
+        "wet-drive"
+      ]
+    },
+    "tips": {
+      "description": "Tips",
+      "type": "array",
+      "maxItems": 30,
+      "items": {
+        "type": "object",
+        "properties": {
+          "text": {
+            "description": "Tip",
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 160
+          }
+        },
+        "required": [
+          "text"
+        ]
+      }
+    },
+    "tipSeconds": {
+      "description": "Time per tip: Seconds each tip stays before the next one.",
+      "type": "integer",
+      "minimum": 3,
+      "maximum": 60
+    }
+  },
+  "required": [
+    "background",
+    "tips",
+    "tipSeconds"
+  ]
+}

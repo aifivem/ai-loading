@@ -1,0 +1,16 @@
+{
+  "$schema": "./schemas/settings.schema.json",
+  "background": "",
+  "tips": [
+    {
+      "text": "Press F1 for the radial menu: keys, HUD settings and more."
+    },
+    {
+      "text": "Jobs pay only while you are on duty."
+    },
+    {
+      "text": "Lost? Your phone's map and the city hall help you start."
+    }
+  ],
+  "tipSeconds": 7
+}

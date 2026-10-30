@@ -1,0 +1,42 @@
+{
+  "name": "ai-loading",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Loading screen in the TGIANN style: the server brand, loading progress and tips from the admin panel",
+  "license": "GPL-3.0-only",
+  "author": {
+    "name": "TGIANN"
+  },
+  "repository": "github:TGIANN/ai-loading",
+  "type": "module",
+  "fxDependencies": [
+    "/onesync",
+    "ai-core"
+  ],
+  "scripts": {
+    "lint": "oxlint --ignore-pattern \"dist/**\"",
+    "format": "prettier --write .",
+    "dev": "bun tsdown -- --watch",
+    "build": "bun run --cwd web build && bun tsdown --",
+    "typecheck": "tsc --noEmit -p resource/server/tsconfig.json",
+    "webdev": "bun --cwd web vite"
+  },
+  "dependencies": {
+    "@aicore-fivem/lib": "^0.1.0",
+    "@aicore-fivem/shared": "^0.1.0"
+  },
+  "devDependencies": {
+    "@aicore-fivem/build": "^0.1.0",
+    "@citizenfx/client": "latest",
+    "@citizenfx/server": "latest",
+    "@types/bun": "latest",
+    "@types/node": "^22",
+    "fast-glob": "^3.3.3",
+    "prettier": "^3.9.10",
+    "prettier-plugin-tailwindcss": "^0.8.1",
+    "oxlint": "^1.66.0",
+    "tsdown": "^0.22.0",
+    "typescript": "^6.0.3"
+  },
+  "fxLoadscreen": true
+}
