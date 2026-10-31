@@ -7,7 +7,7 @@
   "author": {
     "name": "TGIANN"
   },
-  "repository": "github:TGIANN/ai-loading",
+  "repository": "github:aifivem/ai-loading",
   "type": "module",
   "fxDependencies": [
     "/onesync",
