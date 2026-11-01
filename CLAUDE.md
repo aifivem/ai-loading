@@ -16,4 +16,4 @@ The loading screen (qb-loading's job) in the TGIANN style: the server's name, su
 
 ## Entry points
 
-- Server handover and panel: `resource/server/index.ts`, `server/schema.ts`. Page: `web/src/App.tsx`; browser preview `bun run webdev` (mock in `web/src/dev/mock.ts`).
+- Server handover and panel: `resource/server/handover.ts`, `server/schema.ts`. Page: `web/src/App.tsx`; browser preview `bun run webdev` (mock in `web/src/dev/mock.ts`).
