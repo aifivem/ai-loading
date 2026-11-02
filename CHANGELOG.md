@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.1.4](https://github.com/aifivem/ai-loading/compare/v0.1.3...v0.1.4) (2026-11-02)
+
+
+### Bug Fixes
+
+* **build:** keep the web build in dist/ so release zips have the NUI ([91174e2](https://github.com/aifivem/ai-loading/commit/91174e2ab478ec58d8ae9df437ddbf7c18d625e0))
+
+
+### Code Refactoring
+
+* import the shared packages from [@aifivem](https://github.com/aifivem) ([269282b](https://github.com/aifivem/ai-loading/commit/269282b1cba5ca7f0bdbf81d80a0a1c8e666e04f))
+
 ## [0.1.3](https://github.com/aifivem/ai-loading/compare/v0.1.2...v0.1.3) (2026-11-01)
 
 
