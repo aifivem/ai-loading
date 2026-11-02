@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.1.5](https://github.com/aifivem/ai-loading/compare/v0.1.4...v0.1.5) (2026-11-02)
+
+
+### Documentation
+
+* install from the release zip ([4fbbdcc](https://github.com/aifivem/ai-loading/commit/4fbbdcca4a5395c8ceb2e0f34735435dd58fffd0))
+
+
+### Miscellaneous Chores
+
+* build files are no longer in git, the release zip carries them ([0369c15](https://github.com/aifivem/ai-loading/commit/0369c15fc7c3780605bc42bc817b4efe3e94fb04))
+
 ## [0.1.4](https://github.com/aifivem/ai-loading/compare/v0.1.3...v0.1.4) (2026-11-02)
 
 
