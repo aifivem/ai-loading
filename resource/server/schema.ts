@@ -1,4 +1,4 @@
-import type { PanelSchema } from "@aicore-fivem/shared";
+import type { PanelSchema } from "@aifivem/shared";
 
 /** ai-loading's panel: the background and the tips the loading screen shows. */
 export const loadingSchema: PanelSchema = {

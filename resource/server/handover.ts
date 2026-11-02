@@ -1,5 +1,5 @@
-import { AdminPanel, resourceExport } from "@aicore-fivem/lib/server";
-import { loadLocaleTexts } from "@aicore-fivem/lib/fivem";
+import { AdminPanel, resourceExport } from "@aifivem/lib/server";
+import { loadLocaleTexts } from "@aifivem/lib/fivem";
 import { HANDOVER_KEY, readSettings, type LoadingView } from "common/loading";
 import { loadingSchema } from "./schema";
 

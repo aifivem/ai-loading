@@ -1,4 +1,4 @@
-import { int, record, str } from "@aicore-fivem/lib/shared";
+import { int, record, str } from "@aifivem/lib/shared";
 
 /** ai-loading's contracts and panel content. No natives. */
 
